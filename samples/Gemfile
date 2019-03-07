@@ -4,3 +4,4 @@ gem 'pry'
 gem 'vsphere-automation-cis', '~> 0.1.0'
 gem 'vsphere-automation-content', '~> 0.1.0'
 gem 'vsphere-automation-vcenter',  '~> 0.1.0'
+$:.push File.expand_path(File.dirname(__FILE__) + "/tools")
