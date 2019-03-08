@@ -5,10 +5,9 @@ require 'vsphere-automation-vcenter'
 require 'vsphere-automation-content'
 require 'vsphere-automation-cis'
 require 'securerandom'
+$LOAD_PATH.unshift(File.expand_path('../../tools', __dir__))
 require 'content_library_helper'
 require 'client'
-include Client
-include ContentLibrary_Helper
 
 def get_options()
   option_parser, options = get_default_options
